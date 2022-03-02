@@ -17,20 +17,35 @@ h1 {
     font-size: 36px;
 }
 .main {
-    background-color: rgba(175, 210, 212, 0.8);
+    background-color: rgba(208, 238, 240, 0.8);
     vertical-align: middle;
     padding:20px 47px;
     font-size: large;
 }
 .button {
-    text-align: center;
-    font-size: x-large;
-    background-color:rgb(184, 13, 36);
+    box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, rgb(121, 20, 34, 0.05), rgb(121, 20, 34, 1));
+	background-color: rgb(173, 42, 60);
+	border-radius:3px;
+	border:1px solid rgb(121, 20, 34);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+.button:hover {
+    background:linear-gradient(to bottom, rgb(121, 20, 34, 0.05), rgb(121, 20, 34, 1));
+	background-color:#ec767c;
+}
+.button:active {
+    position:relative;
+	top:1px;
 }
 a {
     text-decoration: none;
-    color: rgb(198, 242, 248);
-}
-a:hover {
-    color:rgb(240, 157, 164)
+    color: rgb(212, 241, 245);
 }
