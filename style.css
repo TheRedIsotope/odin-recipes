@@ -1,24 +1,36 @@
 * {
     font-family: "Segoe UI", "Tahoma", "Geneva", "Verdana", sans-serif;
-    text-align: center;
-    color: rgb(181, 16, 155);
+    text-align: left;
+    color: rgb(121, 20, 34);
 }
 body {
-    background-image: radial-gradient(white, rgba(66, 153, 153, 0.3));
+    background-image: url("./images/red\ geometric.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 img {
-    box-shadow: 0px 0px 2px 2px rgb(112, 22, 197);
-    border-radius: 8px;
+    box-shadow: 0px 0px 2px 2px rgb(121, 20, 34);
+}
+h1 {
+    margin-right: 100px;
+    font-size: 36px;
+}
+.main {
+    background-color: rgba(175, 210, 212, 0.8);
+    vertical-align: middle;
+    padding:20px 47px;
+    font-size: large;
 }
 .button {
+    text-align: center;
     font-size: x-large;
-    border-radius: 8px;
-    background-color:rgb(181, 16, 155, 0.6);
+    background-color:rgb(184, 13, 36);
 }
 a {
     text-decoration: none;
-    color: white
+    color: rgb(198, 242, 248);
 }
 a:hover {
-    color:rgb(196, 186, 238)
+    color:rgb(240, 157, 164)
 }
